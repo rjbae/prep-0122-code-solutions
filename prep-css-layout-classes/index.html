@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 10px;
+      padding-bottom: 100px;
+    }
+
+    h1 {
+      color: blue;
+    }
+
+    p {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>Some of My Favorite Films</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_FMjpg_UX1000_.jpg alt=" no country for old men poster" width="100%">
+        <h3>No Country for Old Men</h3>
+        <p>In rural Texas, welder and hunter Llewelyn Moss (Josh Brolin) discovers the remains of several drug runners who have all
+      killed each other in an exchange gone violently wrong. Rather than report the discovery to the police, Moss decides to
+      simply take the two million dollars present for himself. This puts the psychopathic killer, Anton Chigurh (Javier
+      Bardem), on his trail as he dispassionately murders nearly every rival, bystander and even employer in his pursuit of
+      his quarry and the money. As Moss desperately attempts to keep one step ahead, the blood from this hunt begins to flow
+      behind him with relentlessly growing intensity as Chigurh closes in. Meanwhile, the laconic Sheriff Ed Tom Bell (Tommy
+      Lee Jones) blithely oversees the investigation even as he struggles to face the sheer enormity of the crimes he is
+      attempting to thwart.</p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_.jpg" alt="The Grand Budapest Hotel poster" width="100%">
+        <h3>The Grand Budapest Hotel</h3>
+        <p>In the 1930s, the Grand Budapest Hotel is a popular European ski resort, presided over by concierge Gustave H. (Ralph
+      Fiennes). Zero, a junior lobby boy, becomes Gustave's friend and protege. Gustave prides himself on providing
+      first-class service to the hotel's guests, including satisfying the sexual needs of the many elderly women who stay
+      there. When one of Gustave's lovers dies mysteriously, Gustave finds himself the recipient of a priceless painting and
+      the chief suspect in her murder.</p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/M/MV5BYTIyMDFmMmItMWQzYy00MjBiLTg2M2UtM2JiNDRhOWE4NjBhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg" alt="The Bourne Supremacy poster" width="100%">
+        <h3>The Bourne Supremacy</h3>
+        <p>Jason Bourne (Matt Damon) is living in India when he is framed by Russian agent Kirill (Karl Urban) for the theft of
+      millions from the CIA. Kirill begins to pursue Bourne, intending to assassinate him -- but while Bourne and his
+      girlfriend, Marie (Franka Potente), are on the run, a shot meant for him kills her instead. Vowing revenge, Bourne sets
+      out to prove his innocence and bring the culprits to justice, but he has to evade CIA head Pamela Landry (Joan Allen),
+      who is convinced he is guilty.</p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
